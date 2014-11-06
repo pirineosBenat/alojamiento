@@ -1,0 +1,34 @@
+*{
+	margin: 0px;
+	padding: 0px;
+   
+}
+body{
+ font-family: "Helvetica Neue", Arial, sans-serif;
+ font-size: 14px;
+ font-weight: 350;
+ color: #333;
+}
+
+#form{
+ width: 470px;
+ padding: 0 5px;
+ margin: 0 auto;
+}
+
+input{
+ width: 98%;
+ height: 40px;
+ font: 300 24px "Helvetica Neue", Arial, sans-serif;
+ margin: 5px 0 10px 0;
+}
+
+input[type=submit]{
+ background-color:#FF9900;
+ height:50px;
+ width:98%;
+ //border:none;
+ font-weight:400;
+ letter-spacing:2px;
+ color:#FFFFFF;
+}
