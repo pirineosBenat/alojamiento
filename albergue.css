@@ -263,6 +263,7 @@ nav li#buscador2{
 /******************************formulario****************************/
 
 #form{
+    font-family: courier, 'courier new', monospace;
     position: absolute;
     top: 450px;
     width: 100%;
@@ -270,35 +271,44 @@ nav li#buscador2{
     padding-top: 20px;
     display: -webkit-box;
     -webkit-box-orient: horizontal;
-   -webkit-box-pack:center; 
-    height: 80%;
+   -webkit-box-pack:center;
     -webkit-box-align:center; 
-    -webkit-box-align:stretch; 
+    -webkit-box-align:stretch;
 }
 #form_izda{
     left: 10px;
+    padding-right: 20px;
 }
 #form_dcha{
     left: 1000px;
+    width: 267px;
 }
 
 #form input{
+    font-family: courier, 'courier new', monospace;
     width:100%;
+    height: 40px;
     margin-bottom:5px;
     line-height:18px;
-    padding:2px 5px;
+    padding:4px 10px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     border:1px solid #CCC;
 }
 
+#botones{
+    padding-top: 18px;
+}
+
 #form input[type="submit"]{
-    width:50%;
+    font-family: courier, 'courier new', monospace;
+    width:47%;
 }
 
 #form input[type="reset"]{
-    width:50%;
+    font-family: courier, 'courier new', monospace;
+    width:47%;
 }
 
 
